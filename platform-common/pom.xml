@@ -12,4 +12,12 @@
     <artifactId>platform-common</artifactId>
     <description>通用模块，这里放所有模块都能用到的通用逻辑</description>
 
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-extra</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>
