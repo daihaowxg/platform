@@ -5,17 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>io.github.daihaowxg</groupId>
-        <artifactId>platform</artifactId>
+        <artifactId>platform-common</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>platform-common</artifactId>
-    <description>通用模块，这里放所有模块都能用到的通用逻辑</description>
+    <artifactId>platform-common-core</artifactId>
 
-    <packaging>pom</packaging>
-    <modules>
-        <module>platform-common-core</module>
-        <module>platform-common-mybatis</module>
-    </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-extra</artifactId>
+        </dependency>
+    </dependencies>
 </project>
